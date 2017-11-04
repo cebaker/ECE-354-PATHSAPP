@@ -1,0 +1,308 @@
+body {
+    margin:0 auto;
+    background-color:#E0C897;
+    background-image:url(../images/background2.jpg); 
+    background-size:1920px 1200px;
+    background-repeat:no-repeat; 
+    background-position-y:top;
+    background-position-x:right;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-attachment:fixed;
+}
+
+
+#main{
+    margin:0 auto;
+    
+    width: auto;
+    height: auto;
+    max-height:1729.27px;
+    max-width:1080px;
+    
+}
+#mainmenu{
+        margin:0 auto;
+       
+}
+#header{
+        width: 100%;
+        height: 100%;
+        padding:0px ;
+        max-height:300px;
+        max-width:1080px;
+}
+
+#Menu{
+    width:1050px;
+    margin:0 auto;
+    height:32px;
+}
+
+#subbutton{
+    color:black;
+}
+form{
+    
+    background-image:url(../images/formback.jpg);
+    margin: 0 auto;
+  
+    position:relative;
+    width:550px;
+    height:450px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding:10px;
+    border: 1px solid #999;
+    border: inset 1px solid #333;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+     
+}
+.detail_list_game{
+    text-align:center;
+    width
+}
+.highestpaidgame{
+    text-align:center;
+}
+
+.swiper-container {
+        width: auto;
+        height: auto;
+        max-height:300px;
+        max-width:1080px;
+        margin: 20px 0;
+        border-radius:25px;
+
+    }
+    .swiper-slide {
+        
+        border-radius:25px;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .col-sm-6 .profile_pic{
+        display:block;
+        text-align:center;
+        
+    }
+    .swiper-grid{
+        border-radius:15px;
+        
+        font-size: 18px;
+        background: #fff;
+        padding:0;
+        margin: 0 auto;
+        width:100%;
+       
+       
+       
+    }
+    .profile_pic{
+        border-radius:25px;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        width:100%;
+        height:100%;
+        max-height:384px;
+        max-width:512px;
+        min-height:38px;
+        min-width:51px;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        
+
+    }
+.article{
+  border-radius:25px;
+  color:black;
+  background-color:rgba(204,163,82,.86);
+  
+  margin-left:15px;
+  margin-right:15px;
+  margin-top:10px;
+  margin-bottom:0px;
+  clear:both; 
+  padding-bottom:0px 15px 10px 15px;
+
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  
+  max-width:1080px;
+}
+
+.article h1,h2{
+  text-align:center;
+}
+.article p{
+    margin:0px 0px 20px 10px;
+    padding-bottom:10px;
+    padding-top:0px;
+}
+
+.article image{
+    margin:15px;
+}
+ #dota1{
+     float:left;
+     margin-left:10px;
+     margin-right:10px;
+     max-height:600px;
+     max-width:600px;
+     
+     }
+
+ #dota2{
+     float:right;
+     margin-left:10px;
+     margin-right:10px;
+     max-height:600px;
+     max-width:600px;
+     
+     }
+ .article h2{
+     margin:0 auto;
+     text-align:center;
+ }
+ .article p{
+     margin-top:10px;
+ }
+.menu ul{
+    list-style-type:none;
+    padding:0;
+}
+
+
+
+ 
+ .menu a:hover{
+    background-color:white;
+    color:black;
+}
+ a:link{
+    text-decoration:none;
+    text-decoration-color:orangered;
+}
+
+.gridder{
+  margin: 0 auto ;
+  margin-top:5px;
+  display:block;
+  text-align:center;
+  padding:0;
+  width: auto;
+  height: auto;
+  
+  
+  }
+
+ 
+
+  
+
+  
+.gridder-show.loading{
+  background:#EEE url("../images/loading-spin.svg") no-repeat center;
+  }
+  
+.gridder-content{
+  margin:0 auto;
+  display:none;
+  }
+  
+.gridder-list{
+  margin:0 auto;
+ 
+  width:10%;
+  }
+
+
+  
+.gridder-list:nth-child(n){
+  margin-bottom:1%;
+  margin-right:1%;
+  list-style-type:none;
+  display:inline-block;
+
+
+  }
+  
+.gridder-list:nth-of-type(9n){
+  margin-right:0;margin-bottom:0;
+  }
+  
+.gridder-show{
+  border-bottom-style:dashed;
+  border-radius:25px;
+  padding:1px 15px 1px 15px;
+  background-color:rgba(204,163,82,.86);
+  margin:0 auto;
+  
+
+  }
+  
+.gridder-navigation .gridder-nav.disabled{
+  opacity:.5;
+  }
+  
+.gridder-list{
+	cursor:pointer;
+	}
+	
+.gridder-list:hover{
+  opacity:0.8;
+  }
+.hasSelectedItem .gridder-list:hover{
+    opacity:0.8;
+}
+  
+.hasSelectedItem .gridder-list{
+	opacity:.5;
+	}
+	
+.hasSelectedItem .gridder-list.selectedItem{
+  padding:0;
+  opacity:1;
+  }
+.detail_list_table{
+    margin:0 auto;
+}
+

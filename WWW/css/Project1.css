@@ -1,0 +1,225 @@
+body {
+    margin:0 auto;
+    background-color:#E0C897;
+   <!-- background-image:url(../images/background2.jpg); -->
+    background-size:1920px 1200px;
+    background-repeat:no-repeat; 
+    background-position-y:inherit bottom;
+    background-position-x:left;
+    background-attachment:fixed;
+
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+    .swiper-container {
+        width: auto;
+        height: auto;
+        max-height:300px;
+        max-width:1080px;
+        margin: 20px 0;
+        border-radius:25px;
+
+    }
+    .swiper-slide {
+        
+        border-radius:25px;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+.gridder{
+    
+
+  width:1050px;
+  margin:10px auto;padding:10px 10px 10px 10px;list-style-type:none;
+  
+  }
+ 
+.gridder-list{
+  display:inline-block;vertical-align:top;
+  margin:0 auto;
+  }
+  
+.gridder-show{
+  display:block;float:left;width:100%;
+  position: relative;
+ 
+  }
+  
+.gridder-show.loading{
+  background:#EEE url("../images/loading-spin.svg") no-repeat center;
+  }
+  
+.gridder-content{
+  margin:0 auto;
+  display:none;
+  }
+  
+.gridder-list{
+  
+  width:105px;
+  }
+  
+.gridder-list:nth-child(n){
+  margin-bottom:1%;margin-right:1%;
+
+  }
+  
+.gridder-list:nth-of-type(9n){
+  margin-right:0;margin-bottom:0;
+  }
+  
+.gridder-show{
+  border-bottom-style:dashed;
+  border-radius:25px;
+  padding:1px 1px 1px 25px;
+  background-color:rgba(204,163,82,.86);
+  margin-bottom:0px;
+  
+
+  }
+  
+.gridder-navigation .gridder-nav.disabled{
+  opacity:.5;
+  }
+  
+.gridder-list{
+	cursor:pointer;
+	}
+	
+.gridder-list:hover{
+  opacity:0.8;
+  }
+.hasSelectedItem .gridder-list:hover{
+    opacity:0.8;
+}
+  
+.hasSelectedItem .gridder-list{
+	opacity:.5;
+	}
+	
+.hasSelectedItem .gridder-list.selectedItem{
+  opacity:1;
+  }
+
+#main{
+    margin:0 auto;
+    
+     width: auto;
+        height: auto;
+        max-height:300px;
+        max-width:1080px; 
+    
+}
+#mainmenu{
+    width: auto;
+        height: auto;
+        max-height:300px;
+        max-width:1080px; 
+}
+#header{
+        width: 100%;
+        height: 100%;  
+}
+
+
+#Menu{
+    width:1050px;
+    margin:0 auto;
+    height:32px;
+}
+
+#grid{
+  width:100%;
+}
+
+.footcontain{
+  border-radius:25px;
+  border-bottom-color:black;
+  color:black;
+  background-color:rgba(204,163,82,.86);
+  width: 1032px;
+  margin:0 auto;
+
+  clear:both;
+}
+
+
+a:link{
+    text-decoration:none;
+}
+.format_cell.detail_list_player a{
+    color:brown;
+    text-decoration:dashed;
+}
+.format_cell.detail_list_game a{
+     color:brown;
+    text-decoration:dashed;
+}
+.menu ul{
+    list-style-type:none;
+    padding:0;
+}
+
+.menu ul li {
+    float:left;
+}
+
+ 
+ .menu a:hover{
+    background-color:white;
+    color:black;
+	
+}
+.detail_list_order {
+    height: 22px;
+    width:auto;
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+    color: #ccffff;
+    text-align: right;
+    height: 24px;
+    padding: 0px 8px;
+}
+
+.format_cell {
+    display: table-cell;
+    padding: 3px;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+    width:auto;
+}
+table.detail_list_table{
+    width:100%;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.format_cell.highestpaidgame{
+    text-align:center;
+}
+td.format_cell.detail_list_game{
+    text-align:center;
+}

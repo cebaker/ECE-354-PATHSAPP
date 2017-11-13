@@ -27,6 +27,7 @@ body {
         text-align: center;
         font-size: 18px;
         background: #fff;
+        border: 5px solid black;
 
         /* Center slide text vertically */
         display: -webkit-box;

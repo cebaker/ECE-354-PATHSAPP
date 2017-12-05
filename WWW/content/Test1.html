@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+  
+  <head>
+	<title>PATHS</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="http://fonts.googleapis.com/css?family=Armata" rel="stylesheet" type="text/css" />
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" /> 
+    <link href="..//dist/css/jquery.gridder.min.css" rel="stylesheet" />
+    
+    <link href="../css/Project1Content.css" rel="stylesheet" typeof="text/css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../dist/css/swiper.css" />
+   
+    
+   
+	
+  </head>
+
+  <body>
+      
+          <div id="main">
+          <div id="header" class="mainmenu">
+              <a href="Menu.html"><img class="swiper-slide" src="../images/MenuButtons/HEADER.png" alt="Header"/></a>
+          </div>
+              
+          
+
+              <div class="pdfbox">
+                  
+                  <iframe src="https://drive.google.com/file/d/0B6ea7zD_1Lk8YVpRYUM2SmNrOUE/preview" width="400" height="500"></iframe>
+                  
+              </div>
+              
+
+
+
+          </div>
+         
+     
+       
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+      <script src="../dist/js/jquery.gridder.js"></script>
+      
+
+      <script>
+            jQuery(document).ready(function ($) {
+
+                // Call Gridder
+                $(".gridder").gridderExpander({
+                    scrollOffset: 60,
+                    scrollTo: "panel", // "panel" or "listitem"
+                    animationSpeed: 400,
+                    animationEasing: "easeInOutExpo",
+                    onStart: function () {
+                        console.log("Gridder Inititialized");
+                    },
+                    onExpanded: function (object) {
+                        console.log("Gridder Expanded");
+                        $(".carousel").carousel();
+                    },
+                    onChanged: function (object) {
+                        console.log("Gridder Changed");
+                    },
+                    onClosed: function () {
+                        console.log("Gridder Closed");
+                    }
+                });
+            });
+      </script>
+        
+  </body>
+</html>
+

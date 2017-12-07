@@ -17,7 +17,7 @@
 <body onload="init()">
     <p></p>
     <div id="header" class="mainmenu">
-        <a href="content/Menu.html"><img class="swiper-slide" src="images/MenuButtons/HEADER.png" alt="Header"/></a>
+        <a href="index.html"><img class="swiper-slide" src="images/MenuButtons/HEADER.png" alt="Header"/></a>
     </div>
 
     
@@ -25,7 +25,7 @@
     <div data-role="content"> 
         <p></p>
 
-        <form id="loginForm">
+        <form action="content/menu.html">
         <div data-role="fieldcontain" class="ui-hide-label">
             <label for="username">Username:  </label>
             <input type="text" name="username" id="username" value="" placeholder="Username" />
@@ -37,7 +37,13 @@
         </div>
 
         <input type="submit" value="Login" id="submitButton">
+        
+        </form>
+        <form action="content/about.html">
+        
+
         <input type="submit" value="Register" id="submitButton">
+        
         </form>
         
     </div>
